@@ -13,5 +13,20 @@
         "positin_name": "Digital Marketer",
         "job_location": "Dhaka, Bangladesh",
         "company_name": "IT Company"
+    },
+    {
+        "positin_name": "Digital Marketer",
+        "job_location": "Dhaka, Bangladesh",
+        "company_name": "IT Company"
+    },
+    {
+        "positin_name": "Web Developer",
+        "job_location": "Dhaka, Bangladesh",
+        "company_name": "IT Company"
+    },
+    {
+        "positin_name": "Graphic designer",
+        "job_location": "Dhaka, Bangladesh",
+        "company_name": "IT Company"
     }
 ]
