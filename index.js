@@ -8,6 +8,7 @@ app.use(express.json());
 
 const fresherJob = require('./data/fresherjob.json');
 const experiencedJob = require('./data/experiencedjob.json');
+const ITCompanies = require('./data/ITcompany.json');
 
 app.get('/fresherjob', async (req, res) => {
     res.send(fresherJob);
@@ -15,6 +16,9 @@ app.get('/fresherjob', async (req, res) => {
 
 app.get('/experiencedjob', async (req, res) => {
     res.send(experiencedJob);
+});
+app.get('/ITCompany', async (req, res) => {
+    res.send(ITCompanies);
 });
 
 app.get('/', async (req, res) => {
