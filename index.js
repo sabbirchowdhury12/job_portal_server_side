@@ -6,6 +6,17 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
+const fresherJob = require('./data/fresherjob.json');
+const experiencedJob = require('./data/experiencedjob.json');
+
+app.get('/fresherjob', async (req, res) => {
+    res.send(fresherJob);
+});
+
+app.get('/experiencedjob', async (req, res) => {
+    res.send(experiencedJob);
+});
+
 app.get('/', async (req, res) => {
     res.send('hellow world');
 });
